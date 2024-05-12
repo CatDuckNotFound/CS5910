@@ -1,0 +1,21 @@
+Here in Week1 Of Coursera Specialization Moduele1. 
+I've learnt about multiple concepts Such as -:
+- CIA triad InDepth
+- Defense in Depth
+- Risk and Risk Assetment
+- Risk management Framework [http://csrc.nist.gov/groups/SMA/fisma/framework.html]
+- Aws
+In this Project during Week1. Our primary objective was to Ceate a aws-Ec2 instance by copying from coursera_cs5910_im2 AMI image in North Virginia AWS region with LAMP package. 
+We were supposed to set-up web page on Server instance.
+With limited AWS budget. We were supposed to choose min instance. While making proper use of our budget. We created Key-pair login.
+We made our security configuration so that only we can only authorize access/indbound request.  While restricting access from external ip address.
+
+i accessed my aws-linux from my pc using 
+[ ssh -i [login.pem] ec2-user@ip_addr ];
+
+After accesing my instance. I developed my another instance on my own. For setting up my webserver I used up this following refrences:
+ --- https://docs.aws.amazon.com/linux/al2/ug/ec2-lamp-amazon-linux-2.html
+ --- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
+
+After following and completing my configuration. I created my html page on /var/www/html/index.html. 
+
